@@ -114,7 +114,7 @@ function shoot(e){
     }
     
     
-    switch(e.code){
+    switch(e.keycode){
         case 32: 
         laserId = setInterval(moveLaser, 100)
         break
@@ -127,5 +127,4 @@ document.addEventListener('keyup', shoot)
 
 
 
-
-    })
+ })
